@@ -1,0 +1,191 @@
+:root {
+
+/* Colors: */
+--unnamed-color-2e2e2e: #2E2E2E;
+--unnamed-color-e6344d: #E6344D;
+--unnamed-color-090909: #090909;
+--unnamed-color-b2b2b2: #B2B2B2;
+--unnamed-color-000000: #000000;
+--unnamed-color-9a78fe: #9A78FE;
+--unnamed-color-a034ff: #A034FF;
+--unnamed-color-ff1717: #FF1717;
+--unnamed-color-9ac2ff: #9AC2FF;
+--unnamed-color-738fc8: #738FC8;
+--unnamed-color-9d8adc: #9D8ADC;
+--unnamed-color-846ad5: #846AD5;
+--unnamed-color-3c3355: #3C3355;
+--unnamed-color-34f8ff: #34F8FF;
+--unnamed-color-b9b9b9: #B9B9B9;
+--unnamed-color-1cffe8: #1CFFE8;
+--unnamed-color-a08ddc: #A08DDC;
+--unnamed-color-5d4c94: #5D4C94;
+--unnamed-color-b1a2e1: #B1A2E1;
+--unnamed-color-232323: #232323;
+--unnamed-color-4a3f6a: #4A3F6A;
+--unnamed-color-262626: #262626;
+--unnamed-color-e6e6e6: #E6E6E6;
+--unnamed-color-b19aff: #B19AFF;
+--unnamed-color-060606: #060606;
+--unnamed-color-a0a0a0: #A0A0A0;
+--unnamed-color-707070: #707070;
+--unnamed-color-3e3e3e: #3E3E3E;
+--unnamed-color-272727: #272727;
+--unnamed-color-0ad5ff: #0AD5FF;
+--unnamed-color-fbfbfb: #FBFBFB;
+--unnamed-color-807f84: #807F84;
+--unnamed-color-2b2b2b: #2B2B2B;
+--unnamed-color-8773c8: #8773C8;
+--unnamed-color-9d40b8: #9D40B8;
+--unnamed-color-676767: #676767;
+--unnamed-color-ffffff: #FFFFFF;
+--unnamed-color-f0ebff: #F0EBFF;
+
+/* Font/text values */
+--unnamed-font-family-segoe-ui: Segoe UI;
+--unnamed-font-family-poppins: Poppins;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-300: 300px;
+--unnamed-font-weight-600: 600px;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-weight-medium: medium;
+--unnamed-font-weight-bold: bold;
+--unnamed-font-size-11: 11px;
+--unnamed-font-size-12: 12px;
+--unnamed-font-size-13: 13px;
+--unnamed-font-size-14: 14px;
+--unnamed-font-size-15: 15px;
+--unnamed-font-size-16: 16px;
+--unnamed-font-size-18: 18px;
+--unnamed-font-size-20: 20px;
+--unnamed-font-size-23: 23px;
+--unnamed-font-size-24: 24px;
+--unnamed-font-size-25: 25px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-character-spacing--0-17: -0.17px;
+--unnamed-character-spacing--0-2: -0.2px;
+--unnamed-character-spacing--0-21: -0.21px;
+--unnamed-character-spacing--0-24: -0.24px;
+--unnamed-character-spacing--0-27: -0.27px;
+--unnamed-character-spacing--0-3: -0.3px;
+--unnamed-character-spacing--0-34: -0.34px;
+--unnamed-character-spacing--0-18: -0.18px;
+--unnamed-character-spacing-0-14: 0.14px;
+--unnamed-character-spacing--0-38: -0.38px;
+--unnamed-character-spacing--0-23: -0.23px;
+--unnamed-line-spacing-18: 18px;
+--unnamed-line-spacing-19: 19px;
+--unnamed-line-spacing-21: 21px;
+--unnamed-line-spacing-23: 23px;
+--unnamed-line-spacing-25: 25px;
+--unnamed-line-spacing-27: 27px;
+--unnamed-line-spacing-30: 30px;
+--unnamed-line-spacing-35: 35px;
+--unnamed-line-spacing-38: 38px;
+--unnamed-line-spacing-44: 44px;
+--unnamed-line-spacing-82: 82px;
+--unnamed-line-spacing-97: 97px;
+--unnamed-line-spacing-117: 117px;
+--unnamed-text-transform-uppercase: uppercase;
+}
+.fixed-top {
+  top: 40px !important;
+}
+.navbar-header {
+  width: 100%;
+  height: 40px; /* Adjust this height as needed */
+  position: fixed;
+  top: 0;
+  border: 1px solid var(--unnamed-color-a08ddc);
+  background: transparent linear-gradient(180deg, #444343 0%, #141414 100%) 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-header p {
+  font: var(--unnamed-font-style-normal) var(--unnamed-font-weight-300) var(--unnamed-font-size-15)/var(--unnamed-line-spacing-23) var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing--0-23);
+  color: var(--unnamed-color-ffffff);
+  text-align: center;
+  margin-bottom: 0;
+}
+.navbar {
+  background: var(--unnamed-color-5d4c94) 0% 0% no-repeat padding-box !important;
+  border: 1px solid var(--unnamed-color-a08ddc) !important;
+  --bs-gutter-x: 2rem;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+} 
+.navbar-brand {
+  padding-top: 0 !important;
+  padding-right: 15px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing--0-21);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: var(--unnamed-color-1cffe8);
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: var(--unnamed-color-1cffe8);
+}
+.nav-item {
+  padding-left: 10px !important;
+}
+.btn-signup {
+  background: var(--unnamed-color-3c3355) 0% 0% no-repeat padding-box;
+  border-radius: 9px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.btn-signup:hover {
+  background: transparent;
+  color: var(--unnamed-color-ffffff);
+  border: 1px solid var(--unnamed-color-3c3355);
+}
+.btn-signin {
+  margin-left: 5px;
+  background: var(--unnamed-color-846ad5) 0% 0% no-repeat padding-box;
+  border-radius: 9px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+}
+.btn-signin:hover {
+  background: transparent;
+  color: var(--unnamed-color-ffffff);
+  border: 1px solid var(--unnamed-color-846ad5);
+}
+.language-container {
+  margin-left: 20px;
+  align-items: center;
+}
+.language-container div {
+  background: var(--unnamed-color-5d4c94) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-a08ddc);
+  height: 90%;
+  margin: 0 10px;
+}
+.btn-language {
+  border: none;
+  border-radius: 7px;
+  background-color: transparent;
+
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-b9b9b9);
+}
+.btn-language:hover {
+  outline: 1px solid var(--unnamed-color-34f8ff);
+}
+.btn-language.active {
+  outline: 1px solid var(--unnamed-color-34f8ff);
+}
