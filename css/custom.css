@@ -87,6 +87,16 @@
 --unnamed-line-spacing-117: 117px;
 --unnamed-text-transform-uppercase: uppercase;
 }
+body {
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+main {
+  margin-top: 100px;
+}
+
 .fixed-top {
   top: 40px !important;
 }
@@ -188,4 +198,17 @@
 }
 .btn-language.active {
   outline: 1px solid var(--unnamed-color-34f8ff);
+}
+
+.footer {
+  background: var(--unnamed-color-232323) 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.footer p {
+  margin-bottom: 0;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0-14);
+  color: var(--unnamed-color-ffffff);
 }
