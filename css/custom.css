@@ -238,7 +238,7 @@ main .primary-section p {
   font-style: normal;
   font-variant: normal;
   font-weight: medium;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 30px;
   font-family: 'Poppins';
   letter-spacing: -0.3px;
@@ -280,12 +280,32 @@ main .secondary-section {
 }
 main .secondary-section p {
   text-align: center;
-  font: normal normal medium 16px/25px Poppins;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: 'Poppins';
   letter-spacing: -0.24px;
   color: #FFFFFF;
 }
 main p.paragraph {
-  font: normal normal normal 16px/25px Poppins;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: 'Poppins';
+  letter-spacing: -0.24px;
+  color: #2B2B2B;
+}
+main p.paragraph2 {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Poppins';
   letter-spacing: -0.24px;
   color: #2B2B2B;
 }
@@ -301,7 +321,12 @@ main .btn-create-affiliate {
   background: #8773C8 0% 0% no-repeat padding-box;
   border: 4px solid #B19AFF;
   border-radius: 18px;
-  font: normal normal 500 14px/27px Poppins;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Poppins';
   letter-spacing: -0.27px;
   color: #FFFFFF;
 }
@@ -323,9 +348,27 @@ main table .th-tr {
 }
 
 main table .th-tr th {
-  font: normal normal 500 14px/27px Poppins;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Poppins';
   letter-spacing: -0.27px;
   color: #FFFFFF;
   padding: 8px 0;
   text-align: center;
 }
+
+main table td {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Poppins';
+  letter-spacing: -0.27px;
+  color: #2B2B2B;
+  padding-left: 20px !important;
+}
+
