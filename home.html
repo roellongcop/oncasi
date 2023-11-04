@@ -7,6 +7,7 @@
   <title>Home</title>
   <link href="fonts/Poppins/index.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -16,36 +17,24 @@
     <nav class="flex align-items-center w-100">
       <div class="flex align-items-center justify-space-between px-30 gap-10 w-100 nav-inner-container">
         <div class="flex align-items-center gap-10">
-          <div class="svg-container">
+          <div class="svg-container" id="openDrawerBtn">
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(180)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=linear"> <g id="menu-fries"> <path id="vector" d="M3 6H21" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"></path> <path id="vector_2" d="M9 12L21 12" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"></path> <path id="vector_3" d="M3 18H21" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"></path> </g> </g> </g></svg>
           </div>
           <a href="#" class="flex align-items-center">
             <img class="logo" src="logo/logo nav.png">
           </a>
           <ul class="flex">
-            <li>
-              <a class="active" href="#">HOME</a>
-            </li>
-            <li>
-              <a href="#">ABOUT AFFILIATE</a>
-            </li>
-            <li>
-              <a href="#">DOWNLOAD INVOICE</a>
-            </li>
-            <li>
-              <a href="#">FAQ</a>
-            </li>
-            <li>
-              <a href="#">CONTACT US</a>
-            </li>
+            <li> <a class="active" href="#">HOME</a> </li>
+            <li> <a href="#">ABOUT AFFILIATE</a> </li>
+            <li> <a href="#">DOWNLOAD INVOICE</a> </li>
+            <li> <a href="#">FAQ</a> </li>
+            <li> <a href="#">CONTACT US</a> </li>
           </ul>
         </div>
-        
         <div class="flex justify-space-between py-5 links-container">
           <div class="flex align-items-center gap-10 justify-end">
             <button class="btn-signup" type="button">CREATE ACCOUNT</button>
             <button class="btn btn-signin" type="button">LOGIN</button>
-
             <div class="flex align-items-center language-container">
               <button class="btn-language flex align-items-center active gap-5" type="button">
                 <span>EN</span> <img src="logo/united-kingdom.png">
@@ -59,8 +48,32 @@
         </div>
       </div>
     </nav>
+    <div id="sideDrawer" class="side-drawer">
+      <div class="item text-center">
+        <button class="btn-signup" type="button">CREATE ACCOUNT</button>
+      </div>
+      <div class="item text-center">
+        <button class="btn btn-signin" type="button">LOGIN</button>
+      </div>
+      <div class="seperator"></div>
+      <div class="item mb-20">
+        <a href="#" class="active">HOME</a>
+      </div>
+      <div class="item mb-20">
+        <a href="#">ABOUT AFFILIATE</a>
+      </div>
+      <div class="item mb-20">
+        <a href="#">DOWNLOAD INVOICE</a>
+      </div>
+      <div class="item mb-20">
+        <a href="#">FAQ</a>
+      </div>
+      <div class="item mb-20">
+        <a href="#">CONTACT US</a>
+      </div>
+      <span id="closeDrawerBtn"></span>
+    </div>
   </header>
-
   <main>  
     <div>1main</div>
     <div>2main</div>
@@ -68,9 +81,9 @@
     <div>2main</div>
     <div>2main</div> 
   </main>
-
   <footer class="flex justify-center">
     <p>Copyright © 2023 Oncasi. All rights reserved.</p>
   </footer>
+  <script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>

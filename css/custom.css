@@ -11,8 +11,10 @@
 .py-10 {padding: 10px 0;}
 .py-5 {padding: 5px 0;}
 .px-30 {padding: 0 30px;}
+.mb-20 {margin-bottom: 20px !important;}
 .gap-10 {gap: 10px}
 .gap-5 {gap: 5px}
+.text-center {text-align: center;}
 
 body {
   box-sizing: 0;
@@ -76,9 +78,6 @@ header nav {
   border: 1px solid #a08ddc;
   min-height: 64px;
 }
-header nav .nav-inner-container {
-
-}
 header .container-fluid {
   padding-
 }
@@ -117,6 +116,7 @@ header .btn-signup {
   height: min-content;
   border: none;
   cursor: pointer;
+  text-wrap: nowrap;
 }
 header .btn-signup:hover {
   outline: 1px solid #3c3355;
@@ -140,6 +140,33 @@ header .btn-signin {
 header .btn-signin:hover {
   outline: 1px solid #846AD5;
   background: transparent;
+}
+header .side-drawer .btn-signin {
+  width: 100%;
+}
+header .side-drawer .item {
+  width: 183px;
+  margin: 0 auto;
+  margin-bottom: 0.7rem;
+}
+header .side-drawer .item a {
+  text-decoration: none;
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: Poppins;
+  letter-spacing: -0.21px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+header .item a.active,
+header .item a:hover {
+  color: #1CFFE8;
+}
+header .side-drawer .seperator {
+  margin-top: 3rem;
 }
 header .language-container {
   margin-left: 20px;
@@ -166,93 +193,21 @@ header .btn-language.active {
 header .svg-container {
   display: none;
   width: 30px;
+  cursor: pointer;
 }
-
-@media only screen and (max-width: 1319px) {
-  header .svg-container {
-    display: flex;
-  }
-  header ul,
-  header .btn-signup,
-  header .btn-signin {
-    display: none !important;
-  }
-  header .links-container {
-    justify-content: flex-end !important;
-  }
-  header .nav-inner-container {
-    justify-content: space-between !important;
-  }
+header .side-drawer {
+  height: 100%;
+  width: 0; /* Drawer is initially hidden */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #5D4C94;
+  overflow-x: hidden;
+  transition: 0.5s; /* Smooth transition for opening/closing drawer */
+  padding-top: 50px;
+  color: white;
 }
-@media only screen and (max-width: 769px) {
-  header .nav-inner-container {
-    padding: 0px 10px !important;
-  }
+header .side-drawer.open {
+  width: 225px; /* Width of the drawer when it's open */
 }
-@media only screen and (max-width: 466px) {
-  header .nav-inner-container {
-    padding: 0px 7px !important;
-  }
-  header .svg-container {
-    width: 30px;
-  }
-}
-@media only screen and (max-width: 426px) {
-  header nav {
-    min-height: 50px;
-  }
-}
-
-@media only screen and (max-width: 416px) {
-  header .nav-inner-container img.logo {
-    height: 25px;
-  }
-}
-@media only screen and (max-width: 400px) {
-  header nav {
-    min-height: 50px;
-  }
-  header .svg-container {
-    width: 25px;
-  }
-  header .language-container {
-    margin-left: 0px;
-  }
-  header .links-container>div {
-    gap: 5px;
-  }
-  header .btn-language {
-    font-size: 10pt;
-  }
-  header .language-container img {
-    height: 15px;
-  }
-}
-
-@media only screen and (max-width: 353px) {
-  header .nav-inner-container img.logo {
-    height: 22px !important;
-  }
-  header .btn-language {
-    font-size: 9pt;
-  }
-  header .svg-container {
-    width: 22px;
-  }
-  header .nav-inner-container {
-    padding: 0px 3px !important;
-  }
-  header .nav-inner-container>div {
-    gap: 5px;
-  }
-  header .language-container {
-    margin-left: 0px;
-  }
-}
-
-
-
-
-
-
-
