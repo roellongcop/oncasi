@@ -27,50 +27,57 @@
   }
 }
 @media only screen and (max-width: 1275px) {
-  .px-10 {
+  main .px-10 {
     padding-right: 6rem!important;
     padding-left: 6rem!important;
   }
 }
 @media only screen and (max-width: 1243px) {
-  .px-10 {
+  main .px-10 {
     padding-right: 5rem!important;
     padding-left: 5rem!important;
   }
 }
 @media only screen and (max-width: 1211px) {
-  .px-10 {
+  main .px-10 {
     padding-right: 4rem!important;
     padding-left: 4rem!important;
   }
 }
 @media only screen and (max-width: 1179px) {
-  .px-10 {
+  main .px-10 {
     padding-right: 3rem!important;
     padding-left: 3rem!important;
   }
 }
 @media only screen and (max-width: 1147px) {
-  .px-10 {
+  main .px-10 {
     padding-right: 2rem!important;
     padding-left: 2rem!important;
   }
 }
 @media only screen and (max-width: 1115px) {
-  .px-10 {
+  main .px-10 {
     padding-right: 1rem!important;
     padding-left: 1rem!important;
   }
 }
-
 @media only screen and (max-width: 1083px) {
   main .white-section {
+    justify-content: center !important;
+  }
+}
+@media only screen and (max-width: 830px) {
+  main .place-holder-container {
     justify-content: center !important;
   }
 }
 @media only screen and (max-width: 769px) {
   header .nav-inner-container {
     padding: 0px 10px !important;
+  }
+  main .placeholder-box.w-half {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 466px) {
@@ -193,6 +200,12 @@
     height: 15px!important;
   }
 }
+@media only screen and (max-width: 375px) {
+  main .btn-create-affiliate {
+    width: 320px;
+  }
+}
+
 @media only screen and (max-width: 353px) {
   header .nav-inner-container img.logo {
     height: 22px !important;
@@ -213,3 +226,10 @@
     margin-left: 0px !important;
   }
 }
+@media only screen and (max-width: 320px) {
+  main .btn-create-affiliate {
+    width: 300px;
+    padding: 10px 10px !important;
+  }
+}
+

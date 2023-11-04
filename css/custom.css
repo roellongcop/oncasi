@@ -333,6 +333,9 @@ main .placeholder-box {
   background-color: #3E3E3E;
   border-radius: 24px;
 }
+main .placeholder-box.w-half {
+  width: 49%;
+}
 main .br {
 /*  display: none;*/
 }
