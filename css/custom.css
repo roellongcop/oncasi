@@ -10,12 +10,8 @@
   padding-right: 7rem!important;
   padding-left: 7rem!important;
 }
-.font-weight-bolder {
-  font-weight: 700;
-}
-.text-primary {
-  color: #8773C8 !important;
-}
+.font-weight-bolder {font-weight: 700;}
+.text-primary {color: #8773C8 !important;}
 .my-5 {margin-top: 2.5rem!important; margin-bottom: 2.5rem!important;}
 .mx-5 {margin-left: 2.5rem!important; margin-right: 2.5rem!important;}
 .mb-5 {margin-bottom: 2.5rem!important;}
@@ -63,7 +59,6 @@ footer .above .footer-text {
 footer .above .footer-text:hover {
   color: #1CFFE8;
 }
-
 footer .below .footer-text {
   font-style: normal;
   font-weight: normal;
@@ -87,7 +82,7 @@ header .marquee {
   justify-content: center;
   align-items: center;
 }
-header .marquee p {
+header .marquee div {
   position: absolute; /* Absolute positioning */
   width: 100%; /* Same width as parent to match when it scrolls out */
   animation: marquee 40s linear infinite; /* Complete loop in 20 seconds */
@@ -147,10 +142,12 @@ header .btn-signup {
   border: none;
   cursor: pointer;
   text-wrap: nowrap;
+  text-decoration: none;
 }
 header .btn-signup:hover {
   outline: 1px solid #3c3355;
   background: transparent;
+  color: #FFFFFF !important;
 }
 header .btn-signin {
   background: #846AD5 0% 0% no-repeat padding-box;
@@ -166,6 +163,7 @@ header .btn-signin {
   height: min-content;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 header .btn-signin:hover {
   outline: 1px solid #846AD5;
@@ -180,7 +178,7 @@ header .side-drawer .item {
   margin: 0 auto;
   margin-bottom: 0.7rem;
 }
-header .side-drawer .item a {
+header .side-drawer .item.item-link a {
   text-decoration: none;
   text-align: left;
   font-style: normal;
@@ -191,6 +189,9 @@ header .side-drawer .item a {
   letter-spacing: -0.21px;
   color: #FFFFFF;
   margin-left: 20px;
+}
+header .side-drawer .item.item-link a:hover {
+  color: #1CFFE8;
 }
 header .item a.active,
 header .item a:hover {
@@ -348,8 +349,8 @@ main .btn-create-affiliate {
   letter-spacing: -0.27px;
   color: #FFFFFF;
   padding: 10px 80px;
+  width: 400px;
 }
-
 main .btn-create-affiliate:hover {
   color: #FFFFFF;
   background: #5d4c94  0% 0% no-repeat padding-box;
@@ -365,7 +366,6 @@ main table {
 main table .th-tr {
   background: #8773C8 0% 0% no-repeat padding-box;
 }
-
 main table .th-tr th {
   font-style: normal;
   font-variant: normal;
@@ -378,7 +378,6 @@ main table .th-tr th {
   padding: 8px 0;
   text-align: center;
 }
-
 main table td {
   font-style: normal;
   font-variant: normal;
