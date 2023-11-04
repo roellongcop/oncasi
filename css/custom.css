@@ -253,12 +253,12 @@ main .main-container {
 main .primary-section {
   background: #8773C8 0% 0% no-repeat padding-box;
 }
-main .primary-section p {
+main .primary-section .primary-section-text {
   font-style: normal;
   font-variant: normal;
   font-weight: medium;
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 27px;
   font-family: 'Poppins';
   letter-spacing: -0.3px;
   color: #FFFFFF;
