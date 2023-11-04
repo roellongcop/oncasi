@@ -15,10 +15,12 @@
 .gap-5 {gap: 5px}
 
 body {
+  box-sizing: 0;
   margin: 0;
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+  max-width: 100vw;
 }
 main {
   margin-top: 100px;
@@ -73,6 +75,9 @@ header nav {
   position: fixed;
   border: 1px solid #a08ddc;
   min-height: 64px;
+}
+header nav .nav-inner-container {
+
 }
 header .container-fluid {
   padding-
@@ -160,11 +165,12 @@ header .btn-language.active {
 }
 header .svg-container {
   display: none;
+  width: 30px;
 }
 
 @media only screen and (max-width: 1319px) {
   header .svg-container {
-    display: block;
+    display: flex;
   }
   header ul,
   header .btn-signup,
@@ -174,4 +180,79 @@ header .svg-container {
   header .links-container {
     justify-content: flex-end !important;
   }
+  header .nav-inner-container {
+    justify-content: space-between !important;
+  }
 }
+@media only screen and (max-width: 769px) {
+  header .nav-inner-container {
+    padding: 0px 10px !important;
+  }
+}
+@media only screen and (max-width: 466px) {
+  header .nav-inner-container {
+    padding: 0px 7px !important;
+  }
+  header .svg-container {
+    width: 30px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  header nav {
+    min-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 416px) {
+  header .nav-inner-container img.logo {
+    height: 25px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  header nav {
+    min-height: 50px;
+  }
+  header .svg-container {
+    width: 25px;
+  }
+  header .language-container {
+    margin-left: 0px;
+  }
+  header .links-container>div {
+    gap: 5px;
+  }
+  header .btn-language {
+    font-size: 10pt;
+  }
+  header .language-container img {
+    height: 15px;
+  }
+}
+
+@media only screen and (max-width: 353px) {
+  header .nav-inner-container img.logo {
+    height: 22px !important;
+  }
+  header .btn-language {
+    font-size: 9pt;
+  }
+  header .svg-container {
+    width: 22px;
+  }
+  header .nav-inner-container {
+    padding: 0px 3px !important;
+  }
+  header .nav-inner-container>div {
+    gap: 5px;
+  }
+  header .language-container {
+    margin-left: 0px;
+  }
+}
+
+
+
+
+
+
+
