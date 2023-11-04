@@ -6,83 +6,105 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
   <link href="fonts/Poppins/index.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
 </head>
 <body>
   <header>
-    <div class="marquee">
-      <p> Here is where you can make money as an affiliate, sign-up today and start earning at the comfort of your home. </p>
-    </div>
-    <nav class="flex align-items-center w-100">
-      <div class="flex align-items-center justify-space-between px-30 gap-10 w-100 nav-inner-container">
-        <div class="flex align-items-center gap-10">
-          <div class="svg-container" id="openDrawerBtn">
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(180)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=linear"> <g id="menu-fries"> <path id="vector" d="M3 6H21" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"></path> <path id="vector_2" d="M9 12L21 12" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"></path> <path id="vector_3" d="M3 18H21" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"></path> </g> </g> </g></svg>
+      <div class="marquee">
+        <p> Here is where you can make money as an affiliate, sign-up today and start earning at the comfort of your home. </p>
+      </div>
+
+      <nav class="flex align-center w-100">
+        <div class="flex align-center justify-between px-30 gap-3 w-100 nav-inner-container container-fluid">
+          <div class="flex align-center gap-3">
+            <div class="svg-container" id="openDrawerBtn">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(180)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=linear"> <g id="menu-fries"> <path id="vector" d="M3 6H21" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"></path> <path id="vector_2" d="M9 12L21 12" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"></path> <path id="vector_3" d="M3 18H21" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"></path> </g> </g> </g></svg>
+            </div>
+            <a href="#" class="flex align-center">
+              <img class="logo" src="logo/logo nav.png">
+            </a>
+            <ul class="flex mb-0 align-center">
+              <li> <a class="active" href="#">HOME</a> </li>
+              <li> <a href="#">ABOUT AFFILIATE</a> </li>
+              <li> <a href="#">DOWNLOAD INVOICE</a> </li>
+              <li> <a href="#">FAQ</a> </li>
+              <li> <a href="#">CONTACT US</a> </li>
+            </ul>
           </div>
-          <a href="#" class="flex align-items-center">
-            <img class="logo" src="logo/logo nav.png">
-          </a>
-          <ul class="flex">
-            <li> <a class="active" href="#">HOME</a> </li>
-            <li> <a href="#">ABOUT AFFILIATE</a> </li>
-            <li> <a href="#">DOWNLOAD INVOICE</a> </li>
-            <li> <a href="#">FAQ</a> </li>
-            <li> <a href="#">CONTACT US</a> </li>
-          </ul>
-        </div>
-        <div class="flex justify-space-between py-5 links-container">
-          <div class="flex align-items-center gap-10 justify-end">
-            <button class="btn-signup" type="button">CREATE ACCOUNT</button>
-            <button class="btn btn-signin" type="button">LOGIN</button>
-            <div class="flex align-items-center language-container">
-              <button class="btn-language flex align-items-center active gap-5" type="button">
-                <span>EN</span> <img src="logo/united-kingdom.png">
-              </button>
-              <div></div>
-              <button class="btn-language flex align-items-center gap-5" type="button">
-                <span>JP</span> <img src="logo/japan.png">
-              </button>
+          <div class="flex justify-between links-container">
+            <div class="flex align-center gap-3 justify-content-end">
+              <button class="btn-signup" type="button">CREATE ACCOUNT</button>
+              <button class="btn btn-signin" type="button">LOGIN</button>
+              <div class="flex align-center language-container">
+                <button class="btn-language flex align-center active gap-2" type="button">
+                  <span>EN</span> <img src="logo/united-kingdom.png">
+                </button>
+                <div></div>
+                <button class="btn-language flex align-center gap-2" type="button">
+                  <span>JP</span> <img src="logo/japan.png">
+                </button>
+              </div>
             </div>
           </div>
         </div>
+      </nav>
+      <div id="sideDrawer" class="side-drawer">
+        <div class="item text-center">
+          <button class="btn-signup" type="button">CREATE ACCOUNT</button>
+        </div>
+        <div class="item text-center">
+          <button class="btn btn-signin" type="button">LOGIN</button>
+        </div>
+        <div class="seperator"></div>
+        <div class="item mb-3">
+          <a href="#" class="active">HOME</a>
+        </div>
+        <div class="item mb-3">
+          <a href="#">ABOUT AFFILIATE</a>
+        </div>
+        <div class="item mb-3">
+          <a href="#">DOWNLOAD INVOICE</a>
+        </div>
+        <div class="item mb-3">
+          <a href="#">FAQ</a>
+        </div>
+        <div class="item mb-3">
+          <a href="#">CONTACT US</a>
+        </div>
+        <span id="closeDrawerBtn"></span>
       </div>
-    </nav>
-    <div id="sideDrawer" class="side-drawer">
-      <div class="item text-center">
-        <button class="btn-signup" type="button">CREATE ACCOUNT</button>
-      </div>
-      <div class="item text-center">
-        <button class="btn btn-signin" type="button">LOGIN</button>
-      </div>
-      <div class="seperator"></div>
-      <div class="item mb-20">
-        <a href="#" class="active">HOME</a>
-      </div>
-      <div class="item mb-20">
-        <a href="#">ABOUT AFFILIATE</a>
-      </div>
-      <div class="item mb-20">
-        <a href="#">DOWNLOAD INVOICE</a>
-      </div>
-      <div class="item mb-20">
-        <a href="#">FAQ</a>
-      </div>
-      <div class="item mb-20">
-        <a href="#">CONTACT US</a>
-      </div>
-      <span id="closeDrawerBtn"></span>
-    </div>
   </header>
   <main>  
-    <div>1main</div>
-    <div>2main</div>
-    <div>2main</div>
-    <div>2main</div>
-    <div>2main</div> 
+    <div class="container">
+      <div class="main-container">
+        <img src="logo/1b.jpg" class="img-fluid">
+        <div class="primary-section py-2 px-10">
+          <p class="mb-0">Oncasi Affiliate marketing diverges greatly from the standard affiliate marketing approach.</p>
+        </div>
+
+        <div class="white-section py-5 px-10 flex justify-between gap-3 wrap">
+          <div class="white-item pt-4 pb-3 px-3">
+            <h3 class="font-weight-bolder text-primary">
+              Unlimited Lifetime Transfers
+            </h3>
+            <p class="label mb-0">The more players registered and deposit, the more cash will be added in your account every month</p>
+          </div>
+          <div class="white-item pt-4 pb-3 px-3">
+            <h3 class="font-weight-bolder text-primary">Casino site for Japanese with full support</h3>
+            <p class="label mb-0">This is a casino site for Japanese people with a support system run entirely by japanese, we also have 24-hour mail support.</p>
+          </div>
+          <div class="white-item pt-4 pb-3 px-3">
+            <h3 class="font-weight-bolder text-primary">Easy Registration <br><span>-</span></h3>
+            <p class="label mb-0">No complicated procedures are required if you have a website or vlog, you can register now.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
-  <footer class="flex justify-center">
-    <p>Copyright © 2023 Oncasi. All rights reserved.</p>
+  <footer class="flex justify-center align-center py-3">
+    <p class="mb-0">Copyright © 2023 Oncasi. All rights reserved.</p>
   </footer>
   <script type="text/javascript" src="js/custom.js"></script>
 </body>
