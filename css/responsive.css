@@ -1,3 +1,15 @@
+
+@media only screen and (max-width: 1399px) {
+  .container{
+    max-width: 1300px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 @media only screen and (max-width: 1319px) {
   header .svg-container {
     display: flex !important;
@@ -12,6 +24,48 @@
   }
   header .nav-inner-container {
     justify-content: space-between !important;
+  }
+}
+@media only screen and (max-width: 1275px) {
+  .px-10 {
+    padding-right: 6rem!important;
+    padding-left: 6rem!important;
+  }
+}
+@media only screen and (max-width: 1243px) {
+  .px-10 {
+    padding-right: 5rem!important;
+    padding-left: 5rem!important;
+  }
+}
+@media only screen and (max-width: 1211px) {
+  .px-10 {
+    padding-right: 4rem!important;
+    padding-left: 4rem!important;
+  }
+}
+@media only screen and (max-width: 1179px) {
+  .px-10 {
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+  }
+}
+@media only screen and (max-width: 1147px) {
+  .px-10 {
+    padding-right: 2rem!important;
+    padding-left: 2rem!important;
+  }
+}
+@media only screen and (max-width: 1115px) {
+  .px-10 {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+  }
+}
+
+@media only screen and (max-width: 1083px) {
+  main .white-section {
+    justify-content: center !important;
   }
 }
 @media only screen and (max-width: 769px) {
@@ -40,9 +94,78 @@
     font-size: 13px !important;
   }
 }
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 425px) {
+  main {
+    margin-top: 95px;
+  }
   header nav {
     min-height: 50px !important;
+  }
+  .mb-5 {
+    margin-bottom: 1.5rem!important;
+  }
+  .my-5 {
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+  }
+  .pt-5 {
+    padding-top: 1.5rem!important;
+  }
+  .py-5 {
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+  }
+  main table td {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  main table .th-tr th {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  main p.paragraph2 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  main .primary-section p {
+    line-height: 25px;
+  }
+  main .btn-create-affiliate {
+    font-size: 16px;
+    line-height: 25px;
+    width: 350px;
+  }
+  main .step-number {
+    font-size: 16px;
+    line-height: 25px;
+    padding-right: 0.5rem!important;
+    padding-left: 0.5rem!important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  main .step-container .step-container-text {
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 0.5rem;
+    padding: 5px 0;
+  }
+  br.br {
+    display: none;
+  }
+  main .border-item .border-box-text {
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
+  }
+  footer .above {
+    display: block;
+    text-align: center;
+    padding-top: 0.5rem!important;
+    padding-bottom: 0.5rem!important;
+  }
+  footer .footer-text-container {
+      margin: 1rem 0;
   }
 }
 @media only screen and (max-width: 416px) {
