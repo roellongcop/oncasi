@@ -243,7 +243,9 @@ header .side-drawer {
 header .side-drawer.open {
   width: 225px; /* Width of the drawer when it's open */
 }
-
+header .side-drawer .btn-signin {
+  padding: 9px 0;
+}
 main {
   margin-top: 100px;
 }
