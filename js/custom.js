@@ -19,3 +19,12 @@ document.addEventListener('click', function (event) {
 document.getElementById('sideDrawer').addEventListener('click', function (event) {
   event.stopPropagation();
 });
+
+// Listen for all clicks on the document
+document.addEventListener('click', function(event) {
+  // Check if the clicked element is an <a> tag and if its href attribute includes '#'
+  if (event.target.tagName === 'A' && event.target.getAttribute('href') === '#') {
+    // Prevent the default action (which is navigating to the href attribute)
+    event.preventDefault();
+  }
+});

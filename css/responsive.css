@@ -126,11 +126,11 @@
     padding-top: 1.5rem!important;
     padding-bottom: 1.5rem!important;
   }
-  main table td {
+  main table.home td {
     font-size: 16px;
     line-height: 25px;
   }
-  main table .th-tr th {
+  main table.home .th-tr th {
     font-size: 16px;
     line-height: 25px;
   }
