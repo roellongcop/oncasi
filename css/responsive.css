@@ -127,6 +127,10 @@
   }
 }
 @media only screen and (max-width: 425px) {
+  main .input-container {
+    gap: 1rem!important;
+    margin-bottom: 1rem!important;
+  }
   main .px-10 {
     padding-right: 0!important;
     padding-left: 0!important;
@@ -232,6 +236,12 @@
 @media only screen and (max-width: 375px) {
   main .btn-create-affiliate {
     width: 320px;
+  }
+  main .form-header .header-label {
+    font-size: 14px;
+  }
+  main .form-header a {
+    font-size: 14px;
   }
 }
 

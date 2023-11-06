@@ -367,6 +367,10 @@ main .btn-create-affiliate {
   padding: 10px 80px;
   width: 400px;
 }
+main .btn-create-affiliate.btn-send {
+  border-radius: 25px;
+  width: 300px;
+}
 main .btn-create-affiliate:hover {
   color: #FFFFFF;
   background: #5d4c94  0% 0% no-repeat padding-box;
@@ -518,7 +522,6 @@ main .icon-box {
   gap: 4rem;
   padding: 1.5rem 4rem;
 }
-
 main .icon-box-text {
   font-style: normal;
   font-variant: normal;
@@ -529,7 +532,6 @@ main .icon-box-text {
   letter-spacing: -0.21px;
   color: #2B2B2B;
 }
-
 main h5 {
   font-style: normal;
   font-variant: normal;
@@ -554,4 +556,58 @@ main .common-anchor a {
 main .common-anchor a:hover {
   color: #846AD5 ;
 }
-
+main .contact-form {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 35px 0;
+}
+main .form-header {
+  background: #F0EBFF 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+}
+main .form-header .header-label {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: 'Poppins';
+  letter-spacing: -0.24px;
+  color: #2E2E2E;
+}
+main .form-header a {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: 'Poppins';
+  letter-spacing: -0.24px;
+  color: #E6344D;
+  text-decoration: none;
+}
+main .form-group {
+  width: inherit;
+}
+main .form-group .form-control {
+  border-radius: 8px !important;
+  border: 1px solid #707070;
+  min-height: calc(1.5em + (1rem + 2px));
+}
+main .form-group label.form-label {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Poppins';
+  letter-spacing: -0.21px;
+  color: #000000;
+  margin-bottom: 0.2rem;
+}
+main .form-group .form-control:focus {
+  background-color: #fff;
+  outline: 1px solid #8773C8;
+  border-color: #707070;
+  box-shadow: unset;
+}
