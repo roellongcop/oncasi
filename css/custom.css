@@ -195,7 +195,7 @@ header .side-drawer .item.item-link a:hover {
 }
 header .item a.active,
 header .item a:hover {
-  color: #1CFFE8;
+  color: #1CFFE8 !important;
 }
 header .side-drawer .seperator {
   margin-top: 3rem;
@@ -254,11 +254,13 @@ main .main-container {
 }
 main .primary-section {
   background: #8773C8 0% 0% no-repeat padding-box;
+  padding-top: 0.7rem!important;
+  padding-bottom: 0.7rem!important;
 }
 main .primary-section .primary-section-text {
   font-style: normal;
   font-variant: normal;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 18px;
   line-height: 27px;
   font-family: 'Poppins';
@@ -298,6 +300,8 @@ main .white-section .white-item p.label {
 }
 main .secondary-section {
   background: #807F84 0% 0% no-repeat padding-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 main .secondary-section p {
   text-align: center;
@@ -535,5 +539,19 @@ main h5 {
   font-family: 'Poppins';
   letter-spacing: 0px;
   color: #2B2B2B;
+}
+main .common-anchor a {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Poppins';
+  letter-spacing: -0.21px;
+  text-decoration: none;
+  color: #9A78FE;
+}
+main .common-anchor a:hover {
+  color: #846AD5 ;
 }
 
