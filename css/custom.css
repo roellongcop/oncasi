@@ -503,4 +503,37 @@ main table.about td {
   letter-spacing: -0.24px;
   color: #2B2B2B;
 }
+main .icon-box {
+  display: flex;
+  width: 100%;
+  background: #F0EBFF 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  max-width: 700px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 4rem;
+  padding: 1.5rem 4rem;
+}
+
+main .icon-box-text {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: 'Poppins';
+  letter-spacing: -0.21px;
+  color: #2B2B2B;
+}
+
+main h5 {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 38px;
+  font-family: 'Poppins';
+  letter-spacing: 0px;
+  color: #2B2B2B;
+}
 
