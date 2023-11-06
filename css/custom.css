@@ -631,6 +631,12 @@ main .select-wrapper select {
   appearance: none; /* Removes default style */
   padding-right: 30px; 
 }
+main .form-check {
+  padding-left: 0 !important;
+}
+main .form-check-input {
+  cursor: pointer;
+}
 main .form-check-label {
   font-style: normal;
   font-variant: normal;
@@ -640,12 +646,13 @@ main .form-check-label {
   font-family: 'Poppins';
   letter-spacing: -0.21px;
   color: #000000;
+  cursor: pointer;
 }
 main .form-check-label span {
   font-weight: normal;
 }
 
-main .form-check-label-terms {
+main .form-check-label-terms a {
   font-style: normal;
   font-variant: normal;
   font-weight: 500;
@@ -654,4 +661,5 @@ main .form-check-label-terms {
   font-family: 'Poppins';
   letter-spacing: -0.21px;
   color: #9A78FE;
+  text-decoration: none;
 }
