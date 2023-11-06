@@ -85,6 +85,11 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  main .input-container {
+    flex-wrap: wrap;
+    gap: 1rem!important;
+    margin-bottom: 1rem!important;
+  }
   main .icon-box {
     gap: 2rem;
     padding: 1.5rem 2rem;
@@ -96,7 +101,6 @@
     padding-left: 0!important;
     padding-right: 0!important;
   }
-
 }
 @media only screen and (max-width: 466px) {
   main .px-10 {
