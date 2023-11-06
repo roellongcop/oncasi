@@ -611,3 +611,47 @@ main .form-group .form-control:focus {
   border-color: #707070;
   box-shadow: unset;
 }
+main .select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+main .select-wrapper:after {
+  content: "\25BC"; /* Unicode character for "angle down" */
+  position: absolute;
+  top: 68%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 12px;
+}
+main .select-wrapper select {
+  width: 100%;
+  -webkit-appearance: none; /* Removes default chrome and safari style */
+  -moz-appearance: none; /* Removes default style Firefox */
+  appearance: none; /* Removes default style */
+  padding-right: 30px; 
+}
+main .form-check-label {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Poppins';
+  letter-spacing: -0.21px;
+  color: #000000;
+}
+main .form-check-label span {
+  font-weight: normal;
+}
+
+main .form-check-label-terms {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Poppins';
+  letter-spacing: -0.21px;
+  color: #9A78FE;
+}

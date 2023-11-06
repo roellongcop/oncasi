@@ -41,12 +41,11 @@
             <li> <a href="about.html">ABOUT AFFILIATE</a> </li>
             <li> <a href="#">DOWNLOAD INVOICE</a> </li>
             <li> <a href="faq.html">FAQ</a> </li>
-            <li> <a class="active" href="contact.html">CONTACT US</a> </li>
+            <li> <a href="contact.html">CONTACT US</a> </li>
           </ul>
         </div>
         <div class="flex justify-between links-container">
           <div class="flex align-center gap-3 justify-content-end">
-            <a class="btn-signup" href="register.html">CREATE ACCOUNT</a>
             <a class="btn btn-signin" href="login.html">LOGIN</a>
             <div class="flex align-center language-container">
               <button class="btn-language flex align-center active gap-2" type="button">
@@ -62,9 +61,6 @@
       </div>
     </nav>
     <div id="sideDrawer" class="side-drawer">
-      <div class="item text-center">
-        <a class="btn-signup" href="register.html">CREATE ACCOUNT</a>
-      </div>
       <div class="my-3"></div>
       <div class="item text-center">
         <button class="btn btn-signin" href="login.html">LOGIN</button>
@@ -83,7 +79,7 @@
         <a href="faq.html">FAQ</a>
       </div>
       <div class="item item-link mb-3">
-        <a class="active" href="contact.html">CONTACT US</a>
+        <a href="contact.html">CONTACT US</a>
       </div>
       <span id="closeDrawerBtn"></span>
     </div>
@@ -93,36 +89,101 @@
       <div class="main-container">
         <div class="py-3"></div>
         <div class="primary-section py-2 px-10">
-          <div class="primary-section-text mb-0 text-center">CONTACT US</div>
+          <div class="primary-section-text mb-0 text-center">ACCOUNT REGISTER</div>
         </div>
         <div class="form-container">
           <form class="contact-form">
-            <div class="form-header flex center w-100 py-3 justify-center gap-2">
-              <div class="header-label"> You can email us at: </div>
-              <div><a href="mailto:affiliate@oncasi.com"> affiliate@oncasi.com</a></div>
-            </div>
             <div class="form-body mt-4">
               <div class="flex w-100 gap-5 mb-4 input-container">
                 <div class="form-group">
-                  <label class="form-label">Name</label>
-                  <input type="text" name="name" class="form-control">
+                  <label class="form-label">First Name</label>
+                  <input type="text" name="fname" class="form-control">
                 </div>
                 <div class="form-group">
-                  <label class="form-label">E-Mail</label>
+                  <label class="form-label">Last Name</label>
+                  <input type="text" name="lname" class="form-control">
+                </div>
+              </div>
+              <div class="flex w-100 gap-5 mb-4 input-container">
+                <div class="form-group">
+                  <label class="form-label">Email</label>
                   <input type="email" name="email" class="form-control">
                 </div>
-              </div>
-              <div class="flex w-100 gap-5">
                 <div class="form-group">
-                  <label class="form-label">E-Mail</label>
-                  <textarea name="name" class="form-control" rows="10"></textarea>
+                  <label class="form-label">User Name</label>
+                  <input type="text" name="username" class="form-control">
                 </div>
               </div>
-              <div class="text-center my-5">
-                <button class="btn btn-lg btn-create-affiliate btn-send px-4 py-3">
-                  SEND
+              <div class="flex w-100 gap-5 mb-4 input-container">
+                <div class="form-group">
+                  <label class="form-label">Password</label>
+                  <input type="password" name="password" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Confirm Password</label>
+                  <input type="password" name="confirm_password" class="form-control">
+                </div>
+              </div>
+              <div class="flex w-100 gap-5 mb-4 input-container">
+                <div class="form-group">
+                  <label class="form-label">Website URL</label>
+                  <input type="text" name="website_url" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Company Name</label>
+                  <input type="text" name="company_name" class="form-control">
+                </div>
+              </div>
+              <div class="flex w-100 gap-5 mb-4 input-container">
+                <div class="form-group">
+                  <label class="form-label">Mobile Number</label>
+                  <input type="text" name="mobile_no" class="form-control">
+                </div>
+                <div class="form-group select-wrapper">
+                  <label class="form-label">Country</label>
+                  <select name="country" class="form-control">
+                    <option value="" selected>Select</option>
+                    <option value="usa">United States</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                  </select>
+                </div>
+              </div>
+              <div class="flex w-100 gap-5 mb-4 input-container justify-center pt-2 pb-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="checkbox1">
+                  <label class="form-check-label" for="checkbox1">
+                    Product of Interest: <span>Casino</span>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="checkbox2">
+                  <label class="form-check-label" for="checkbox2">
+                    Message Email Notifier
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="checkbox3">
+                  <label class="form-check-label" for="checkbox3">
+                    Send Promotions
+                  </label>
+                </div>
+              </div>
+              <hr class="h2">
+              <div class="flex justify-center mt-5 mb-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="checkbox2">
+                  <label class="form-check-label-terms" for="checkbox2">
+                    I accept the terms and conditions
+                  </label>
+                </div>
+              </div>
+              <div class="text-center mb-5">
+                <button class="btn btn-lg btn-create-affiliate px-5 py-3">
+                  CREATE AFFILIATE ACCOUNT
                 </button>
               </div>
+              <div class="pb-5"></div>
             </div>
           </form>
         </div>
