@@ -68,6 +68,10 @@
   }
 }
 @media only screen and (max-width: 830px) {
+  main .terms-and-condition-text-container {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
   main .place-holder-container {
     justify-content: center !important;
   }
@@ -147,8 +151,12 @@
     padding-right: 0!important;
     padding-left: 0!important;
   }
+  main .primary-section {
+    padding-right: 10px!important;
+    padding-left: 10px!important;
+  }
   main {
-    margin-top: 95px;
+    margin-top: 90px;
   }
   header nav {
     min-height: 50px !important;
@@ -217,7 +225,7 @@
     padding-bottom: 0.5rem!important;
   }
   footer .footer-text-container {
-      margin: 1rem 0;
+    margin: 1rem 0;
   }
 }
 @media only screen and (max-width: 416px) {

@@ -667,6 +667,7 @@ main .form-check-label-terms a {
 
 main .terms-and-condition-text-container {
   padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
 }
 main .terms-and-condition-text {
   font-style: normal;
