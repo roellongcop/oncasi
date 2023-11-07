@@ -371,6 +371,17 @@ main .btn-create-affiliate.btn-send {
   border-radius: 25px;
   width: 300px;
 }
+main .btn-create-affiliate.btn-login {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Poppins';
+  letter-spacing: -0.18px;
+  border-radius: 25px;
+  width: 100%
+}
 main .btn-create-affiliate:hover {
   color: #FFFFFF;
   background: #5d4c94  0% 0% no-repeat padding-box;
@@ -651,7 +662,6 @@ main .form-check-label {
 main .form-check-label span {
   font-weight: normal;
 }
-
 main .form-check-label-terms a {
   font-style: normal;
   font-variant: normal;
@@ -663,8 +673,6 @@ main .form-check-label-terms a {
   color: #9A78FE;
   text-decoration: none;
 }
-
-
 main .terms-and-condition-text-container {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
@@ -678,4 +686,51 @@ main .terms-and-condition-text {
   font-family: 'Poppins';
   letter-spacing: -0.21px;
   color: #000000;
+}
+main.bg {
+  background-image: url('../logo/bg.png');
+  background-size: cover;
+  background-position: center;
+}
+main .login-container {
+  margin: 0 auto;
+  max-width: 400px;
+}
+main .affiliate-text {
+  text-align: center;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: 'Poppins';
+  letter-spacing: -0.24px;
+  color: #FFFFFF;
+}
+main .login-form {
+  background-color: rgba(9, 9, 9, 0.71);
+  border-radius: 36px;
+}
+main .login-form .form-label,
+main .login-form .form-check-label {
+  color: #FFFFFF !important;
+}
+main .login-form .form-group {
+  margin-bottom: 1rem;
+}
+main .login-form .form-check {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  padding-left: 1.5rem !important;
+}
+main .login-form .forgot-password {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Poppins';
+  letter-spacing: -0.18px;
+  text-decoration: none;
+  color: #FFF;
 }

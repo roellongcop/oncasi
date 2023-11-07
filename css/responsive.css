@@ -254,6 +254,9 @@
   }
 }
 @media only screen and (max-width: 375px) {
+  main .login-form {
+    padding: 2rem!important;
+  }
   main .btn-create-affiliate {
     width: 320px;
   }
