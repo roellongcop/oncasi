@@ -663,3 +663,18 @@ main .form-check-label-terms a {
   color: #9A78FE;
   text-decoration: none;
 }
+
+
+main .terms-and-condition-text-container {
+  padding-top: 5rem !important;
+}
+main .terms-and-condition-text {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Poppins';
+  letter-spacing: -0.21px;
+  color: #000000;
+}
