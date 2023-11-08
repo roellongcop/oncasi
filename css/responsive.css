@@ -292,7 +292,9 @@
   main .banner-container {
     height: 66px;
   }
-
+  main .banner-text {
+    padding-top: 2.5rem;
+  }
   main .login-container {
     width: 360px;
   }
@@ -339,6 +341,14 @@
   }
 }
 @media only screen and (max-width: 320px) {
+  main .banner-container {
+    height: 56px;
+  }
+  main .banner-text {
+    padding-left: 1.5rem!important;
+    padding-top: 2rem;
+    font-size: 8px;
+  }
   main .btn-create-affiliate {
     width: 300px;
     padding: 10px 10px !important;
