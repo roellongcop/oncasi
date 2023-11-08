@@ -61,10 +61,22 @@
     padding-right: 1rem!important;
     padding-left: 1rem!important;
   }
+  main .banner-container {
+    height: 181px;
+  }
+  main .banner-text {
+    padding-left: 5rem!important;
+    padding-top: 8rem;
+  }
 }
 @media only screen and (max-width: 1083px) {
   main .white-section {
     justify-content: center !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  main .banner-container {
+
   }
 }
 @media only screen and (max-width: 830px) {

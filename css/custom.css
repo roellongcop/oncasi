@@ -765,6 +765,7 @@ main .login-link:hover {
 }
 main .banner-container {
   background-image: url('../logo/1b.jpg');
+  background-size: cover;
   height: 225px;
 }
 main .banner-text  {
@@ -778,5 +779,6 @@ main .banner-text  {
   color: #676767;
   text-transform: uppercase;
   position: relative;
-  top: 172px;
+  padding-top: 10rem;
+  padding-left: 6rem;
 }
