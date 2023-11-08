@@ -89,6 +89,9 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  main .place-holder-container {
+    flex-wrap: wrap;
+  }
   main .input-container {
     gap: 1.5rem!important;
     margin-bottom: 1.5rem!important;
@@ -104,6 +107,7 @@
     padding-left: 0!important;
     padding-right: 0!important;
   }
+
 }
 @media only screen and (max-width: 620px) {
   main .login-container {
@@ -152,10 +156,10 @@
     gap: 1rem!important;
     margin-bottom: 1rem!important;
   }
-  main .px-10 {
+  /*main .px-10 {
     padding-right: 0!important;
     padding-left: 0!important;
-  }
+  }*/
   main .primary-section {
     padding-right: 10px!important;
     padding-left: 10px!important;
@@ -284,6 +288,10 @@
   }
 }
 @media only screen and (max-width: 353px) {
+  main .px-10 {
+    padding-right: 0.3rem!important;
+    padding-left: 0.3rem!important;
+  }
   header .nav-inner-container img.logo {
     height: 22px !important;
   }
