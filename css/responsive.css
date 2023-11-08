@@ -75,8 +75,8 @@
   }
 }
 @media only screen and (max-width: 1024px) {
-  main .banner-container {
-
+  main .upper-banner {
+    padding-bottom: 0.5rem;
   }
 }
 @media only screen and (max-width: 830px) {
@@ -171,6 +171,9 @@
   }
 }
 @media only screen and (max-width: 425px) {
+  main .upper-banner {
+    padding-bottom: 0rem;
+  }
   main .banner-container {
     height: 75px;
   }
