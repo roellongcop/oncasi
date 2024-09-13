@@ -12,7 +12,7 @@
 }
 @media only screen and (max-width: 1319px) {
   header .svg-container {
-    display: flex !important;
+    display: block !important;
   }
   header nav ul,
   header nav .btn-signup,
